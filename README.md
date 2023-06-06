@@ -313,15 +313,35 @@ Repository
 
 - 요구사항 정의서
 - 기능 정의서
-- [API 명세서](https://lab.ssafy.com/s08-webmobile1-sub2/S08P12A505/-/blob/docs/readme/docs/img/API_LIST.png)
+- [API 명세서](https://github.com/ejk9658/HobbyIT/blob/main/docs/img/API_LIST.png)
 - [와이어 프레임](https://www.figma.com/file/mKMpSGZU6zQK7NP3aRWG8O/%EC%9C%A0%EC%BE%8C%ED%95%9C%EB%B0%98%EB%9E%80-Hobby'It?node-id=0%3A1&t=WKgF5Q8oLOynJk9c-1)
-- [ER-Diagram](https://lab.ssafy.com/s08-webmobile1-sub2/S08P12A505/-/blob/docs/readme/docs/img/ER-Diagram.png)
+- [ER-Diagram](https://github.com/ejk9658/HobbyIT/blob/main/docs/img/ER-Diagram.png)
 
 ## ✔️ 프로젝트 결과물
 
-- 포팅메뉴얼
-- [중간발표 자료](https://lab.ssafy.com/s08-webmobile1-sub2/S08P12A505/-/blob/docs/readme/docs/서울_5반_A505_중간발표자료.pptx)
-- 최종 발표 자료
+- [포팅메뉴얼](https://chipped-cart-851.notion.site/Hobby-IT-bbd259f62a2949499a83e84f4fdb4b6a?pvs=4)
+- [중간발표 자료](https://github.com/ejk9658/HobbyIT/tree/main/docs/서울_5반_A505_중간발표자료.pptx)
+- [최종 발표 자료](https://github.com/ejk9658/HobbyIT/tree/main/docs/서울_5반_A505_발표자료.pptx)
+- [시연 영상 녹화본](https://github.com/ejk9658/HobbyIT/tree/main/docs/A505시연.mp4)
+
+## ✔️ 총평
+
+### 아쉬운 점
+
+- API Docs의 부재로 인한 백엔드-프론트엔드 간의 불필요한 소통
+    - 각 API마다 다른 변수 및 전송 형태에 대해 질문을 하는 경우 다수
+- 프론트엔드 디렉토리 정리
+    - 많은 컴포넌트로 인해 개발이 진행될 수록 원하는 파일을 찾는데 걸리는 시간이 증가함
+- 일부에만 적용된 반응형 & 기기(데스크탑, 태블릿, 모바일)마다 다른 UI/UX 구현 실패
+- 익숙하지 않은 JIRA 사용에 의한 관리 미숙
+
+### 배운 점
+
+- 원활한 소통을 위한 직관적인 명세서 정리의 필요성
+- 프론트엔드 Axios 연결을 위한 interceptor 파일을 따로 구현
+    - 헤더와 같이 중복될 수 있는 axios 내의 코드를 생략가능
+- 프로젝트 기획을 최대한 세분화해야 함
+- 브라우저 렌더링 및 lazy loading
 
 ## 👪 HOBBY'IT 서비스 화면
 
@@ -448,23 +468,5 @@ Repository
 ![화상통화](docs/page_img/화상통화.jpg)
 
 #### 유쾌한 반란 6인의 화상 통화 화면
-
-## 총평
-
-### 아쉬운 점
-
-- API Docs의 부재로 인한 백엔드-프론트엔드 간의 불필요한 소통
-  - 각 API마다 다른 변수 및 전송 형태에 대해 질문을 하는 경우 다수
-- 프론트엔드 디렉토리 정리
-  - 많은 컴포넌트로 인해 개발이 진행될 수록 원하는 파일을 찾는데 걸리는 시간이 증가함
-- 일부에만 적용된 반응형 & 기기(데스크탑, 태블릿, 모바일)마다 다른 UI/UX 구현 실패
-- 익숙하지 않은 JIRA 사용에 의한 관리 미숙
-
-### 배운 점
-
-- 프론트엔드 Axios 연결을 위한 interceptor 파일을 따로 구현
-  - 헤더와 같이 중복될 수 있는 axios 내의 코드를 생략가능
-- 더욱 세분화 된 프로젝트 기획 과정
-- 브라우저 렌더링 및 lazy loading
 
 <hr>
